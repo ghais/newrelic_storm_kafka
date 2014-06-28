@@ -1,0 +1,10 @@
+{
+    "agents": [
+      {
+          "kafka.topic" : "topic",
+          "kafka.broker": "kafka.example.com:9012",
+          "storm.zk.host": "zookeeper.example.com:2181",
+          "storm.zk.path": "/kafka_consumers/topology"
+      }
+    ]
+}
