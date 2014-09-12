@@ -31,7 +31,7 @@ public class StormKafkaAgentFactory extends AgentFactory {
     if (-1 == index) {
       return DEFAULT_KAFKA_PORT;
     }
-    return Integer.valueOf(broker.substring(index, broker.length()));
+    return Integer.valueOf(broker.substring(index + 1, broker.length()));
   }
 
   private String getHost(String broker) {
