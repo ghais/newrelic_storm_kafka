@@ -35,6 +35,7 @@ Configuration
 {
     "agents": [
       {
+          "name" : "a descriptive name",                 //A name to identify the topology by.
           "kafka.topic" : "topic",                       //The topic you want to monigor
           "kafka.broker": "kafka.example.com:9012",      //The host:port of one of the kafka brokers
           "storm.zk.host": "zookeeper.example.com:2181", //The host:port of zookeeper
